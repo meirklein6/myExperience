@@ -22,7 +22,7 @@ steps:
     csmFile: 'CreateWebApp/azuredeploy.json'
     overrideParameters: |
       -projectName ARMDevops
-       -linkedTemplateUri https://raw.githubusercontent.com/meirklein6/myExperience/master/CreateWebApp/linkedStorageAccount.json?token=ALOSS2OFFA3UF5M743MJ42K6TG4WO
+      -linkedTemplateUri https://raw.githubusercontent.com/meirklein6/myExperience/master/CreateWebApp/linkedStorageAccount.json
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 

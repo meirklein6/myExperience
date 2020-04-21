@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-linkedTemplateUri https://raw.githubusercontent.com/meirklein6/myExperience/master/CreateWebApp/linkedStorageAccount.json -projectName mk2904 '
+    overrideParameters: '-linkedTemplateUri https://raw.githubusercontent.com/meirklein6/myExperience/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
